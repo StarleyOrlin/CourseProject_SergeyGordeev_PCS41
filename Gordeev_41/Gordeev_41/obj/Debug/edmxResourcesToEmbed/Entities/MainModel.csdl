@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Gordeev_PKS41Model1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Gordeev_PKS41Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Client_Table" EntityType="Gordeev_PKS41Model1.Client_Table" />
+    <EntitySet Name="Roles" EntityType="Gordeev_PKS41Model1.Role" />
+    <EntitySet Name="sysdiagrams" EntityType="Gordeev_PKS41Model1.sysdiagram" />
+    <EntitySet Name="Courier_Table" EntityType="Gordeev_PKS41Model1.Courier_Table" />
+    <EntitySet Name="Good_Table" EntityType="Gordeev_PKS41Model1.Good_Table" />
+    <EntitySet Name="NewsItems" EntityType="Gordeev_PKS41Model1.NewsItem" />
+    <EntitySet Name="Order_Table" EntityType="Gordeev_PKS41Model1.Order_Table" />
+    <AssociationSet Name="FK_Client_Table_Role" Association="Gordeev_PKS41Model1.FK_Client_Table_Role">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="Client_Table" EntitySet="Client_Table" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Courier_Table_Role" Association="Gordeev_PKS41Model1.FK_Courier_Table_Role">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="Courier_Table" EntitySet="Courier_Table" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Client_Table">
+    <Key>
+      <PropertyRef Name="ClientId" />
+    </Key>
+    <Property Name="ClientId" Type="Int32" Nullable="false" />
+    <Property Name="ClientName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientSecondName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientThirdName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientAddress" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientDateOfBirth" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="ClientLogin" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Role" Relationship="Gordeev_PKS41Model1.FK_Client_Table_Role" FromRole="Client_Table" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Client_Table" Relationship="Gordeev_PKS41Model1.FK_Client_Table_Role" FromRole="Role" ToRole="Client_Table" />
+    <NavigationProperty Name="Courier_Table" Relationship="Gordeev_PKS41Model1.FK_Courier_Table_Role" FromRole="Role" ToRole="Courier_Table" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Courier_Table">
+    <Key>
+      <PropertyRef Name="CourierId" />
+      <PropertyRef Name="CourierFirstName" />
+      <PropertyRef Name="CourierSecondName" />
+      <PropertyRef Name="CourierNumber" />
+      <PropertyRef Name="CourierRole" />
+      <PropertyRef Name="CourierLogin" />
+      <PropertyRef Name="CourierPassword" />
+    </Key>
+    <Property Name="CourierId" Type="Int32" Nullable="false" />
+    <Property Name="CourierFirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CourierSecondName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CourierNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CourierRole" Type="Int32" Nullable="false" />
+    <Property Name="CourierLogin" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CourierPassword" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Role" Relationship="Gordeev_PKS41Model1.FK_Courier_Table_Role" FromRole="Courier_Table" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Good_Table">
+    <Key>
+      <PropertyRef Name="GoodId" />
+      <PropertyRef Name="GoodName" />
+      <PropertyRef Name="GoodPrice" />
+      <PropertyRef Name="GoodWeight" />
+      <PropertyRef Name="GoodIngridients" />
+      <PropertyRef Name="GoodCategory" />
+    </Key>
+    <Property Name="GoodId" Type="Int32" Nullable="false" />
+    <Property Name="GoodName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GoodPrice" Type="Decimal" Nullable="false" Precision="18" Scale="1" />
+    <Property Name="GoodWeight" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GoodIngridients" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GoodCategory" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GoodCalorific" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GoodPhoto" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="NewsItem">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Header" />
+      <PropertyRef Name="Text" />
+      <PropertyRef Name="CreationDate" />
+      <PropertyRef Name="Author" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Header" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreationDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Author" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Order_Table">
+    <Key>
+      <PropertyRef Name="OrderId" />
+      <PropertyRef Name="ClientId" />
+      <PropertyRef Name="CourierId" />
+      <PropertyRef Name="GoodId" />
+      <PropertyRef Name="OrderDate" />
+      <PropertyRef Name="OrderReceivingDate" />
+      <PropertyRef Name="OrderPrice" />
+    </Key>
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="ClientId" Type="Int32" Nullable="false" />
+    <Property Name="CourierId" Type="Int32" Nullable="false" />
+    <Property Name="GoodId" Type="Int32" Nullable="false" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="OrderReceivingDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="OrderPrice" Type="Decimal" Nullable="false" Precision="12" Scale="2" />
+  </EntityType>
+  <Association Name="FK_Client_Table_Role">
+    <End Type="Gordeev_PKS41Model1.Role" Role="Role" Multiplicity="1" />
+    <End Type="Gordeev_PKS41Model1.Client_Table" Role="Client_Table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Client_Table">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Courier_Table_Role">
+    <End Type="Gordeev_PKS41Model1.Role" Role="Role" Multiplicity="1" />
+    <End Type="Gordeev_PKS41Model1.Courier_Table" Role="Courier_Table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Courier_Table">
+        <PropertyRef Name="CourierRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,204 @@
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe.config
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.pdb
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csprojAssemblyReference.cache
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.g.cs
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.g.cs
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.g.cs
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\App.g.cs
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.cache
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.lref
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\App.baml
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.baml
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.baml
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.baml
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.baml
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.g.resources
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.Properties.Resources.resources
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.GenerateResource.cache
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CoreCompileInputs.cache
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.exe
+C:\Users\Student20\source\repos\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.pdb
+E:\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe.config
+E:\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe
+E:\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.pdb
+E:\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.dll
+E:\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.dll
+E:\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.xml
+E:\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.xml
+E:\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.g.cs
+E:\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.g.cs
+E:\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.g.cs
+E:\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.g.cs
+E:\Gordeev_41\Gordeev_41\obj\Debug\App.g.cs
+E:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_Content.g.cs
+E:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.cache
+E:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.lref
+E:\Gordeev_41\Gordeev_41\obj\Debug\App.baml
+E:\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.baml
+E:\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.baml
+E:\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.baml
+E:\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.baml
+E:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.g.resources
+E:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.Properties.Resources.resources
+E:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.GenerateResource.cache
+E:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CopyComplete
+E:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.exe
+E:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.pdb
+E:\Gordeev_41\Gordeev_41\bin\Debug\ru\EntityFramework.resources.dll
+F:\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe.config
+F:\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe
+F:\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.pdb
+F:\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.dll
+F:\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.dll
+F:\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.xml
+F:\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.xml
+F:\Gordeev_41\Gordeev_41\bin\Debug\ru\EntityFramework.resources.dll
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csprojAssemblyReference.cache
+F:\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.g.cs
+F:\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.g.cs
+F:\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.g.cs
+F:\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.g.cs
+F:\Gordeev_41\Gordeev_41\obj\Debug\App.g.cs
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_Content.g.cs
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.cache
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.lref
+F:\Gordeev_41\Gordeev_41\obj\Debug\App.baml
+F:\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.baml
+F:\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.baml
+F:\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.baml
+F:\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.baml
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.g.resources
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.Properties.Resources.resources
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.GenerateResource.cache
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CoreCompileInputs.cache
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CopyComplete
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.exe
+F:\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.pdb
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe.config
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.pdb
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.dll
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.xml
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csprojAssemblyReference.cache
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.g.cs
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.g.cs
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.g.cs
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\App.g.cs
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_Content.g.cs
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.cache
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.lref
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\App.baml
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.baml
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.baml
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.baml
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.baml
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.g.resources
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.Properties.Resources.resources
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.GenerateResource.cache
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CoreCompileInputs.cache
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CopyComplete
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.exe
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.pdb
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\NewsPage.g.cs
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\NewsPage.baml
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\CourierPage.g.cs
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\CourierPage.baml
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\RegistrationPage.g.cs
+C:\Users\student20\Downloads\Gordeev_41\Gordeev_41\obj\Debug\Pages\RegistrationPage.baml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe.config
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.pdb
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.dll
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.dll
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.xml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.xml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\bin\Debug\ru\EntityFramework.resources.dll
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csprojAssemblyReference.cache
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.g.cs
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.g.cs
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\CourierPage.g.cs
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.g.cs
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\NewsPage.g.cs
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\RegistrationPage.g.cs
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.g.cs
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\App.g.cs
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_Content.g.cs
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.cache
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.lref
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\App.baml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.baml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.baml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\CourierPage.baml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.baml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\NewsPage.baml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\RegistrationPage.baml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.baml
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.g.resources
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.Properties.Resources.resources
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.GenerateResource.cache
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CoreCompileInputs.cache
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CopyComplete
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.exe
+E:\Курсач\Копия курсача\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.pdb
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\CourierPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\NewsPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\RegistrationPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\App.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_Content.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.cache
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41_MarkupCompile.lref
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.exe
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.pdb
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe.config
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.exe
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\bin\Debug\Gordeev_41.pdb
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.dll
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.xml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\App.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\MainWindow.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminMenuPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\CourierPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\LoginPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\NewsPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\RegistrationPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserMenuPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.g.resources
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.Properties.Resources.resources
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.GenerateResource.cache
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CoreCompileInputs.cache
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csproj.CopyComplete
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminClientPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminClientPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\ReportUserPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\ReportUserPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Windows\AdminAddClient.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Windows\ReportUserPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Windows\AdminAddClient.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Windows\ReportUserPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Gordeev_41.csprojAssemblyReference.cache
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserAccoutPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserAccoutPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserAssortimentPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\UserAssortimentPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\UserControls\NewsItemControl.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\UserControls\NewsItemControl.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\InformationPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\InformationPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminAssortimentPage.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\UserControls\UserAssortimentControls.g.cs
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\Pages\AdminAssortimentPage.baml
+C:\Users\Starley Orlin\Desktop\Gordeev_41\Gordeev_41\obj\Debug\UserControls\UserAssortimentControls.baml

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Gordeev_PKS41Model1" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Client_Table">
+    <Key>
+      <PropertyRef Name="ClientId" />
+    </Key>
+    <Property Name="ClientId" Type="int" Nullable="false" />
+    <Property Name="ClientName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClientSecondName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClientThirdName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClientAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClientNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClientDateOfBirth" Type="date" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="ClientLogin" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClientPassword" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Gordeev_PKS41.dbo.Courier_Table' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Courier_Table">
+    <Key>
+      <PropertyRef Name="CourierId" />
+      <PropertyRef Name="CourierFirstName" />
+      <PropertyRef Name="CourierSecondName" />
+      <PropertyRef Name="CourierNumber" />
+      <PropertyRef Name="CourierRole" />
+      <PropertyRef Name="CourierLogin" />
+      <PropertyRef Name="CourierPassword" />
+    </Key>
+    <Property Name="CourierId" Type="int" Nullable="false" />
+    <Property Name="CourierFirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CourierSecondName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CourierNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CourierRole" Type="int" Nullable="false" />
+    <Property Name="CourierLogin" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CourierPassword" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Gordeev_PKS41.dbo.Good_Table' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Good_Table">
+    <Key>
+      <PropertyRef Name="GoodId" />
+      <PropertyRef Name="GoodName" />
+      <PropertyRef Name="GoodPrice" />
+      <PropertyRef Name="GoodWeight" />
+      <PropertyRef Name="GoodIngridients" />
+      <PropertyRef Name="GoodCategory" />
+    </Key>
+    <Property Name="GoodId" Type="int" Nullable="false" />
+    <Property Name="GoodName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GoodPrice" Type="decimal" Precision="18" Scale="1" Nullable="false" />
+    <Property Name="GoodWeight" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GoodIngridients" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="GoodCategory" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GoodCalorific" Type="nvarchar" MaxLength="50" />
+    <Property Name="GoodPhoto" Type="image" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Gordeev_PKS41.dbo.NewsItem' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="NewsItem">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Header" />
+      <PropertyRef Name="Text" />
+      <PropertyRef Name="CreationDate" />
+      <PropertyRef Name="Author" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreationDate" Type="datetime" Nullable="false" />
+    <Property Name="Photo" Type="image" />
+    <Property Name="Author" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Gordeev_PKS41.dbo.Order_Table' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Order_Table">
+    <Key>
+      <PropertyRef Name="OrderId" />
+      <PropertyRef Name="ClientId" />
+      <PropertyRef Name="CourierId" />
+      <PropertyRef Name="GoodId" />
+      <PropertyRef Name="OrderDate" />
+      <PropertyRef Name="OrderReceivingDate" />
+      <PropertyRef Name="OrderPrice" />
+    </Key>
+    <Property Name="OrderId" Type="int" Nullable="false" />
+    <Property Name="ClientId" Type="int" Nullable="false" />
+    <Property Name="CourierId" Type="int" Nullable="false" />
+    <Property Name="GoodId" Type="int" Nullable="false" />
+    <Property Name="OrderDate" Type="date" Nullable="false" />
+    <Property Name="OrderReceivingDate" Type="date" Nullable="false" />
+    <Property Name="OrderPrice" Type="decimal" Precision="12" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Client_Table_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="Client_Table" Type="Self.Client_Table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Client_Table">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Courier_Table_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="Courier_Table" Type="Self.Courier_Table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Courier_Table">
+        <PropertyRef Name="CourierRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище Gordeev_PKS41Model1Container">
+    <EntitySet Name="Client_Table" EntityType="Self.Client_Table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Courier_Table" EntityType="Self.Courier_Table" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Courier_Table].[CourierId] AS [CourierId], 
+    [Courier_Table].[CourierFirstName] AS [CourierFirstName], 
+    [Courier_Table].[CourierSecondName] AS [CourierSecondName], 
+    [Courier_Table].[CourierNumber] AS [CourierNumber], 
+    [Courier_Table].[CourierRole] AS [CourierRole], 
+    [Courier_Table].[CourierLogin] AS [CourierLogin], 
+    [Courier_Table].[CourierPassword] AS [CourierPassword]
+    FROM [dbo].[Courier_Table] AS [Courier_Table]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Good_Table" EntityType="Self.Good_Table" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Good_Table].[GoodId] AS [GoodId], 
+    [Good_Table].[GoodName] AS [GoodName], 
+    [Good_Table].[GoodPrice] AS [GoodPrice], 
+    [Good_Table].[GoodWeight] AS [GoodWeight], 
+    [Good_Table].[GoodIngridients] AS [GoodIngridients], 
+    [Good_Table].[GoodCategory] AS [GoodCategory], 
+    [Good_Table].[GoodCalorific] AS [GoodCalorific], 
+    [Good_Table].[GoodPhoto] AS [GoodPhoto]
+    FROM [dbo].[Good_Table] AS [Good_Table]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="NewsItem" EntityType="Self.NewsItem" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [NewsItem].[Id] AS [Id], 
+    [NewsItem].[Header] AS [Header], 
+    [NewsItem].[Text] AS [Text], 
+    [NewsItem].[CreationDate] AS [CreationDate], 
+    [NewsItem].[Photo] AS [Photo], 
+    [NewsItem].[Author] AS [Author]
+    FROM [dbo].[NewsItem] AS [NewsItem]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Order_Table" EntityType="Self.Order_Table" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Order_Table].[OrderId] AS [OrderId], 
+    [Order_Table].[ClientId] AS [ClientId], 
+    [Order_Table].[CourierId] AS [CourierId], 
+    [Order_Table].[GoodId] AS [GoodId], 
+    [Order_Table].[OrderDate] AS [OrderDate], 
+    [Order_Table].[OrderReceivingDate] AS [OrderReceivingDate], 
+    [Order_Table].[OrderPrice] AS [OrderPrice]
+    FROM [dbo].[Order_Table] AS [Order_Table]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Client_Table_Role" Association="Self.FK_Client_Table_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Client_Table" EntitySet="Client_Table" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Courier_Table_Role" Association="Self.FK_Courier_Table_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Courier_Table" EntitySet="Courier_Table" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

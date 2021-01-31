@@ -1,0 +1,69 @@
+﻿<Page x:Class="Gordeev_41.Pages.RegistrationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Gordeev_41.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800" Background="White"
+      Title="Меню регистрации">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="320"  />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Имя:" Style="{StaticResource CommonText}"  Width="130"></TextBlock>
+                <TextBox Name="TextBoxName"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Фамилия:" Style="{StaticResource CommonText}" Width="130"></TextBlock>
+                <TextBox Name="TextBoxFamily"></TextBox>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Отчество:" Style="{StaticResource CommonText}"  Width="130"></TextBlock>
+                <TextBox Name="TextBoxThirdName"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Адрес:" Style="{StaticResource CommonText}"  Width="130"></TextBlock>
+                <TextBox Name="TextBoxAddress"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Дата рождения:" Style="{StaticResource CommonText}" VerticalAlignment="Top"  Width="130"></TextBlock>
+                <DatePicker Name="DPDateOfBirth"></DatePicker>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Номер телефона:" Style="{StaticResource CommonText}"></TextBlock>
+                <TextBox Name="TextBoxNumber" Text="{Binding Client.PhoneNumber, StringFormat=Phone\{0:###-####\}}"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Column="1"  HorizontalAlignment="Right" VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock Text="Логин:" Style="{StaticResource CommonText}"></TextBlock>
+                <TextBox Name="TextBoxLogin"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock Text="Пароль:" Style="{StaticResource CommonText}"></TextBlock>
+                <PasswordBox Name="PasswordBoxPassword" PasswordChar="*"></PasswordBox>
+                <TextBox Name="TextBoxPassword" Visibility="Collapsed"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock Text="Повторите пароль:" Style="{StaticResource CommonText}"></TextBlock>
+                <PasswordBox Name="PasswordBoxPasswordRepeat" PasswordChar="*"></PasswordBox>
+                <TextBox Name="TextBoxPasswordRepeat" Visibility="Collapsed"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <CheckBox Name="CheckBoxShowPass" Content="Показать пароль" Checked="CheckBoxShowPass_Checked" Unchecked="CheckBoxShowPass_Unchecked"></CheckBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="2" HorizontalAlignment="Right">
+                <Button Name="BtnCancel" Content="Отмена" Click="BtnCancel_Click" Width="125"></Button>
+                <Button Name="ButtonRegister" Content="Зарегистрироваться" Click="ButtonRegister_Click" Width="175"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
